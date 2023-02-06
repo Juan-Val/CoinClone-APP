@@ -1,0 +1,25 @@
+.navbar{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.navbar__options{
+  display: flex;
+  list-style: none;
+}
+
+.navbar__options li{
+  font-size: 14px;
+  margin-left: 20px;
+}
+.container_buttons button{
+  margin-left: 20px;
+}
+.signIn{
+  background: #fff;
+}
+.getStarted{
+  background: var(--color--blue);
+  color: #fff;
+}

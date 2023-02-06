@@ -1,0 +1,44 @@
+.itemList{
+  display: grid;
+  align-content: center;  
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 2rem;
+  width: 100%;
+}
+.itemImage{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+}
+.image{
+  display: flex;
+  align-items: center;
+  padding:  5px;
+}
+.image p{
+  margin-right: 1rem;
+}
+.texts{
+  display: flex;
+  flex-direction: column;
+  line-height:0;
+}
+.text2{
+  color: #393939;
+  font-size: small;
+  position: relative;
+  margin-top: -8px;
+}
+
+.positivo{
+  color:  #3ACC8A;
+  justify-self: center;
+}
+.negativo{
+  color: #DF5F67;
+  justify-self: center;
+}
+.text3{
+  justify-self: center;
+}
